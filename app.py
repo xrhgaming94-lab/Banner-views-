@@ -41,7 +41,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-INFO_API_URL = "https://fffinfo.tsunstudio.pw/get"
+INFO_API_URL = "https://infoooooo.vercel.app/info?"
 BASE64 = "aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL1NoYWhHQ3JlYXRvci9pY29uQG1haW4vUE5H"
 info_URL = base64.b64decode(BASE64).decode('utf-8')
 
