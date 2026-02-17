@@ -2,3 +2,10 @@ fastapi
 uvicorn
 httpx
 Pillow
+Flask==3.0.2
+Flask-Caching==2.1.0
+requests==2.31.0
+pycryptodome==3.20.0
+colorama==0.4.6
+protobuf==4.25.3
+urllib3==2.2.1
