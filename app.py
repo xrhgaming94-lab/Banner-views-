@@ -16,7 +16,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-INFO_API_URL = "https://kallu-info-api.vercel.app/accinfo"
+INFO_API_URL = "https://star-info-api.vercel.app/accinfo?"
 FONT_FILE = "NotoSans-Bold.ttf"
 
 client = httpx.AsyncClient(
@@ -150,7 +150,7 @@ async def home():
     return {"message": "⚡ Ultra Fast Banner API Running",
            "Made By": "Flexbase",
            "Telegram": "@Flexbasei",
-           "Your Info Api": https://kallu-info-api.vercel.app/,
+           "Your Info Api": https://star-info-api.vercel.app/,
            "Api Endpoint": "accinfo?uid={uid}&region={region}",
            "Note": "Join To Us For More 💝"
     }
